@@ -1,0 +1,11 @@
+.loader {
+/*	border: 1px solid black;*/
+position : fixed;
+z-index: 9999;
+background : url('../images/logoloader.png') 50% 50% no-repeat;
+top : 18vw;
+left : 40vw;
+height : 30%; 
+width : 17%;
+cursor : wait;
+}

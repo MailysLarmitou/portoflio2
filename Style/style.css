@@ -1,0 +1,1554 @@
+@font-face {
+	font-family: 'LaGagliane';
+    src: url(font/LaGagliane/font.woff) format('woff'),
+    	 url(font/LaGagliane/font.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'LaGaglianeItalic';
+    src: url(font/LaGaglianeItalic/font.woff) format('woff'),
+    	 url(font/LaGaglianeItalic/font.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'LaGaglianeIcon';
+    src: url(font/LaGaglianeIcon/font.woff) format('woff'),
+    	 url(font/LaGaglianeIcon/font.woff2) format('woff2');
+}
+
+body{
+	background-image: url(../images/fond.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+html { overflow-y: hidden; } 
+
+
+
+h1{
+/*	border: 1px solid black;*/
+	font-family: 'LaGagliane';
+	margin-left: 1vw;
+	margin-top: 1.2vh;
+	font-size: 0.9vw;
+	line-height: 1.6vw;
+}
+
+h2{
+	font-family: 'LaGagliane';
+	margin-top: 1.2vh;
+	margin-left: 1vw;
+}
+
+h3{
+	font-family: 'LaGagliane';
+	margin-top: 1.2vh;
+	margin-left: 1vw;
+}
+
+#bold{
+	font-weight: 700;
+}
+
+/*
+ _                 _                            
+| |               | |                           
+| |__   __ _ _   _| |_   _ __   __ _  __ _  ___ 
+| '_ \ / _` | | | | __| | '_ \ / _` |/ _` |/ _ \
+| | | | (_| | |_| | |_  | |_) | (_| | (_| |  __/
+|_| |_|\__,_|\__,_|\__| | .__/ \__,_|\__, |\___|
+                        | |           __/ |     
+                        |_|          |___/
+*/
+
+#haut{
+	border-bottom: 1px solid black;
+	background-color: white;
+	display: flex;
+	height: 6.5vh;
+	justify-content: space-between;
+}
+
+/*SECTION GAUCHE */
+
+#sectiongauche{
+/*	border: 1px solid black;*/
+	display: flex;
+	align-items: center;
+}
+
+#logo{
+/*	border: 1px solid black;*/
+	height: 3vw;
+	margin-left: 1vw;
+}
+
+/*SECTION DROITE */
+
+#sectiondroite{
+/*	border: 1px solid black;*/
+	display: flex;
+	align-items: center;
+	right: 0;
+	margin-right: 1vw;
+	font-family: 'avenir';
+}
+
+#mail{
+	height: 2vw;
+	margin-left: 1vw;
+}
+
+#insta{
+	height: 2vw;
+	margin-left: 1vw;
+}
+
+#behance{
+	height: 2vw;
+	margin-left: 1vw;
+}
+
+#vimeo{
+	height: 2vw;
+	margin-left: 1vw;
+	margin-right: 2vw;
+}
+
+#sectiondroite p{
+	font-family: 'LaGagliane';
+	font-size: 0.8vw;
+	margin-top: 0.5vh;
+}
+
+
+/*
+  ___  _____  _____ _   _ _____ _____ _     
+ / _ \/  __ \/  __ \ | | |  ___|_   _| |    
+/ /_\ \ /  \/| /  \/ | | | |__   | | | |    
+|  _  | |    | |   | | | |  __|  | | | |    
+| | | | \__/\| \__/\ |_| | |___ _| |_| |____
+\_| |_/\____/ \____/\___/\____/ \___/\_____/
+
+*/
+
+
+#accueil{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 20vh 36vw;
+	width: 28vw;
+	height: 33vh;
+	position: absolute;
+}
+
+#ACCUEILtoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 26vw;
+}
+
+#ACCUEILcroixarticle{
+	width: 2vw;
+}
+
+#ACCUEILcaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 24vw;
+	height: 22vh;
+	/* haut | droit | bas | gauche */
+	padding: 0.5vw 2vh 0.5vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.5vh;
+	align-items: center;
+}
+
+#ACCUEILcaption p{
+	text-align: center;
+	margin-top: 1vh;
+}
+
+#ACCUEILcaption img{
+	width: 9vw;
+	margin: 2vh auto;
+	display: block;
+}
+
+
+#icon{
+	font-family:'LaGaglianeIcon';
+	line-height: 18vh;
+	font-size: 3vw;
+}
+
+
+
+/*
+                                (_)                 
+ _ __  _   _ _ __ ___   ___ _ __ _  __ _ _   _  ___ 
+| '_ \| | | | '_ ` _ \ / _ \ '__| |/ _` | | | |/ _ \
+| | | | |_| | | | | | |  __/ |  | | (_| | |_| |  __/
+|_| |_|\__,_|_| |_| |_|\___|_|  |_|\__, |\__,_|\___|
+                                      | |           
+                                      |_|*/
+
+   /* FENETRE NUMÉRIQUE SECTION*/
+
+#icon2{
+	font-family: 'LaGaglianeIcon';
+}
+
+#fenetrenum{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 8vw 27vw;
+	width: 45vw;
+	height: 50vh;
+	position: absolute;
+}
+
+#cadrenum{
+	border: 1px solid black;	
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 2vh auto;
+	width: 43vw;
+	height: 40vh;
+}
+
+#cadrenum li{
+/*	border: 1px solid black;	
+*/	height: 15vh;
+	align-items: center;
+}
+
+#cadrenum figure{
+	text-align: center;
+}
+
+#cadrenum figure img{
+	width: 5vw;
+}
+
+#cadrenum figcaption{
+	margin-top: 1vh;
+	text-align: center;
+	font-family: 'avenir';
+}
+
+#DMDMtopsection{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 43vw;
+}
+
+#croixsection{
+	width: 2vw;
+}
+
+
+		
+/*		___  _ ____    _  _ ____ _       _  _ ____ ___ ____ 
+		|  \ | [__     |\/| |  | |   10  |\/| |  |  |  [__  
+		|__/ | ___]    |  | |__| |       |  | |__|  |  ___]
+ 	
+*/
+
+
+	/* ARTICLE*/
+
+#DMDMarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 10vw;
+	width: 38vw;
+	height: 23vh;
+	position: absolute;
+}
+
+#DMDMtoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 36vw;
+}
+
+#DMDMcroixarticle{
+	width: 2vw;
+}
+
+#captionDMDM{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 34vw;
+	height: 12vh;
+	/* haut | droit | bas | gauche */
+	padding: 0.5vw 2vh 0.5vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+	/* ASIDE*/
+
+#DMDMaside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 5vh 50vw;
+	width: 33vw;
+	height: 70vh;
+	position: absolute;
+}
+
+#DMDMtopaside{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 37vw;
+}
+
+#DMDMcroixaside{
+	width: 2vw;
+	margin-left: 1vw;
+}
+
+.scrollbar::-webkit-scrollbar-track-y{ /*barre entière*/
+    border-left: 1px solid black;
+}
+.scrollbar::-webkit-scrollbar-y{
+    width: 1.5vw;
+    background-color: white;
+}
+.scrollbar::-webkit-scrollbar-thumb-y{ /*défilement*/
+    border: 1px solid black;
+    border-right: none;
+    background-color: white;
+
+}
+
+
+#DMDMdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 28.5vw;
+	height: 57vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	overflow-y : scroll; 
+}
+
+#DMDMdiv img{
+	width: 27vw;
+}
+
+#MSaffiche{
+	width: 25.5vw;
+}
+
+#MSmockup1{
+	width: 25.5vw;
+	margin-top: 2vh;
+}
+
+#vidéo{
+	margin-top: 2vh;
+}
+
+
+
+
+
+
+/*			_  _ _ _  _ _    ____ _ ___ ____ 
+			|\/| | |\ | |    [__  |  |  |___ 
+			|  | | | \| |    ___] |  |  |___*/
+
+#MSarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 10vw;
+	width: 38vw;
+	height: 28vh;
+	position: absolute;
+}
+
+#MStoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 36vw;
+}
+
+#MScroixarticle{
+	width: 2vw;
+}
+
+#MScaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 34vw;
+	height: 14vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+#MScaption a{
+	text-decoration: none;
+	color: black;
+}
+
+#MScaption a:hover{
+	text-decoration: underline;
+	font-weight: 700;
+
+}
+
+	/* ASIDE*/
+
+#MSaside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 5vh 50vw;
+	width: 42vw;
+	height: 57vh;
+	position: absolute;
+}
+
+#MStopaside{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 45vw;
+}
+
+#MScroixaside{
+	width: 2vw;
+	margin-left: 1vw;
+}
+
+.scrollbar::-webkit-scrollbar-track-y{ /*barre entière*/
+    border-left: 1px solid black;
+}
+.scrollbar::-webkit-scrollbar-y{
+    width: 1.5vw;
+    background-color: white;
+}
+.scrollbar::-webkit-scrollbar-thumb-y{ /*défilement*/
+    border: 1px solid black;
+    border-right: none;
+    background-color: white;
+}
+
+
+#MSdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 38vw;
+	height: 44vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	overflow-y: scroll;
+}
+
+#MSdiv img{
+	width: 36vw;
+	height: 50vh;
+	margin-bottom: 1vh;
+	/* haut | droit | bas | gauche */
+}
+
+/*
+			 __ .__. __ .  ..___.___..___..___ __.
+			[__)|  |/  `|__|[__   |    |  [__ (__ 
+			|   |__|\__.|  |[___  |    |  [___.__)
+
+*/
+
+
+	/*ARTICLE*/
+
+#Particle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 10vw;
+	width: 30vw;
+	height: 22vh;
+	position: absolute;
+}
+
+#Ptoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 28vw;
+}
+
+#Pcroixarticle{
+	width: 2vw;
+}
+
+#Pcaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 26vw;
+	height: 9vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+	/* ASIDE*/
+
+#Paside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 5vh 50vw;
+	width: 39vw;
+	height: 71vh;
+	position: absolute;
+}
+
+
+#Ptopaside{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 36.5vw;
+}
+
+#Pcroixaside{
+	width: 2vw;
+}
+
+#Pdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 34vw;
+	height: 57vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	overflow-y: scroll; 
+}
+
+
+#Pdiv img{
+	width: 32vw;
+	height: 57vh;
+	object-fit: cover;
+	margin-bottom: 2vh;
+}
+
+#Pdiv #P2{
+	width: 32vw;
+	height: 57vh;
+	object-fit: cover;
+	margin-top: 2vh;
+}
+
+
+
+
+/*			___ ____ ____ ____ ____ ____     _ ___  ____ 
+			 |  |___ |__| [__  |___ |__/     | |__] |  | 
+ 			 |  |___ |  | ___] |___ |  \    _| |    |__|
+
+*/
+
+
+	/*ARTICLE*/
+
+#JPOarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 5vw;
+	width: 30vw;
+	height: 22vh;
+	position: absolute;
+}
+
+#JPOtoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 28vw;
+}
+
+#JPOcroixarticle{
+	width: 2vw;
+}
+
+#JPOcaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 26vw;
+	height: 9vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+#JPOcaption a{
+	text-decoration: none;
+	color: black;
+}
+
+#JPOcaption a:hover{
+	font-weight: 700;
+}
+
+	/* ASIDE*/
+
+#JPOaside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 5vh 40vw;
+	width: 55vw;
+	height: 64vh;
+	position: absolute;
+}
+
+#JPOtopaside{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 52.5vw;
+}
+
+#JPOcroixaside{
+	width: 2vw;
+}
+
+
+#JPOdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 50vw;
+	height: 50vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+____________ _____ _   _ _____ 
+| ___ \ ___ \_   _| \ | |_   _|
+| |_/ / |_/ / | | |  \| | | |  
+|  __/|    /  | | | . ` | | |  
+| |   | |\ \ _| |_| |\  | | |  
+\_|   \_| \_|\___/\_| \_/ \_/
+
+                                     */
+
+   /* FENETRE PRINT SECTION*/
+
+#fenetreprint{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 8vw 27vw;
+	width: 45vw;
+	height: 50vh;
+	position: absolute;
+}
+
+#cadreprint{
+	border: 1px solid black;	
+	align-items: center;
+	justify-content: space-around;
+	margin: 2vh auto;
+	width: 43vw;
+	height: 40vh;
+}
+
+#cadreprint figure{
+	text-align: center;
+	width: 10vw;
+}
+
+#cadreprint figure img{
+	width: 5vw;
+}
+
+#cadreprint figcaption{
+	margin-top: 1vh;
+	text-align: center;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+#cadreprint li{
+	height: 15vh;
+	align-items: center;
+}
+
+
+
+#cadreprint1{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 5vh;
+}
+
+
+
+
+#cadreprint2{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 2vh;
+}
+
+
+
+
+#printtopsection{
+	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 43vw;
+}
+
+#croixsectionprint{
+	width: 2vw;
+}
+
+
+
+		
+/*			
+			____ ____ _  _ ____ _  _ ___ ____ _ 
+			|__/ |__| |\/| |___ |\ |  |  |  | | 
+			|  \ |  | |  | |___ | \|  |  |__| |
+ 	*/
+
+
+
+	/* ARTICLE*/
+
+#RTarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 5vw;
+	width: 32vw;
+	height: 30vh;
+	position: absolute;
+}
+
+#RTtoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 30vw;
+}
+
+#RTcroixarticle{
+	width: 2vw;
+}
+
+#captionRT{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 28vw;
+	height: 19vh;
+	/* haut | droit | bas | gauche */
+	padding: 0.5vw 2vh 0.5vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+	/* ASIDE*/
+
+#RTaside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 5vh 40vw;
+	width: 50vw;
+	height: 70vh;
+	position: absolute;
+}
+
+
+#RTcroixaside{
+/*	border: 1px solid black;*/
+	/* haut | droit | bas | gauche */
+	margin: 2vh auto 0 1vw;
+	width: 2vw;
+}
+
+#RTdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 46vw;
+	height: 56vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	overflow : scroll; 
+}
+
+#RTdiv img{
+	width: 46vw;
+	height: 56vh;
+	object-fit: cover;
+	margin-bottom: 2vh;
+}
+
+
+
+		
+/*			
+ 			 _ ____ _  _ ___  ____ ____ ____ ____ ___ ____ 
+ 			 | |___ |  | |  \ |___ |    |__| |__/  |  |___ 
+			_| |___ |__| |__/ |___ |___ |  | |  \  |  |___
+ */
+
+
+
+	/* ARTICLE*/
+
+#CARTESarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 10vw;
+	width: 38vw;
+	height: 23vh;
+	position: absolute;
+}
+
+#CARTEStoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 36vw;
+}
+
+#CARTEScroixarticle{
+	width: 2vw;
+}
+
+#CARTEScaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 34vw;
+	height: 12vh;
+	/* haut | droit | bas | gauche */
+	padding: 0.5vw 2vh 0.5vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+	/* ASIDE*/
+
+#CARTESaside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 5vh 50vw;
+	width: 30vw;
+	height: 70vh;
+	position: absolute;
+}
+
+
+#CARTEScroixaside{
+/*	border: 1px solid black;*/
+	/* haut | droit | bas | gauche */
+	margin: 2vh auto 0 1vw;
+	width: 2vw;
+}
+
+#CARTESdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 25.5vw;
+	height: 57vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	overflow : scroll; 
+}
+
+#CARTESdiv img{
+	width: 25.5vw;
+	height: 57vh;
+	object-fit: cover;
+}
+
+
+
+		
+/*			
+			____ ____ ___ ____ _    ____ ____ _  _ ____ 
+			|    |__|  |  |__| |    |  | | __ |  | |___ 
+			|___ |  |  |  |  | |___ |__| |__] |__| |___
+ */
+
+
+	/* ARTICLE*/
+
+#CATarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 5vw;
+	width: 25vw;
+	height: 25vh;
+	position: absolute;
+}
+
+#CATtoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 23.5vw;
+}
+
+#CATcroixarticle{
+	width: 2vw;
+}
+
+#CATcaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 21vw;
+	height: 14vh;
+	/* haut | droit | bas | gauche */
+	padding: 0.5vw 2vh 0.5vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+	/* ASIDE*/
+
+#CATaside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 8vh 40vw;
+	width: 55vw;
+	height: 66vh;
+	position: absolute;
+}
+
+
+#CATcroixaside{
+/*	border: 1px solid black;*/
+	/* haut | droit | bas | gauche */
+	margin: 2vh auto 0 1vw;
+	width: 2vw;
+}
+
+#CATdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 51vw;
+	height: 53vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	overflow : scroll; 
+}
+
+
+#CATdiv img{
+	width: 51vw;
+	height: 53vh;
+	object-fit: cover;
+	margin-bottom: 2vh;
+}
+
+
+
+		
+/*			
+____ ____ ____ _  _ ____    ____ _  _ _ _  _ ____ _  _ _  _ 
+|___ |___ |__/ |\/| |___    |__| |\ | | |\/| |__| |  |  \/  
+|    |___ |  \ |  | |___    |  | | \| | |  | |  | |__| _/\_
+
+ */
+
+
+	/* ARTICLE*/
+
+#FERMEarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 5vw;
+	width: 25vw;
+	height: 23vh;
+	position: absolute;
+}
+
+#FERMEtoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 23.5vw;
+}
+
+#FERMEcroixarticle{
+	width: 2vw;
+}
+
+#FERMEcaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 21vw;
+	height: 10vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 0.5vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+	/* ASIDE*/
+
+#FERMEaside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 5vh 40vw;
+	width: 55vw;
+	height: 66vh;
+	position: absolute;
+}
+
+
+#FERMEcroixaside{
+/*	border: 1px solid black;*/
+	/* haut | droit | bas | gauche */
+	margin: 2vh auto 0 1vw;
+	width: 2vw;
+}
+
+#FERMEdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 51vw;
+	height: 53vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	overflow : scroll; 
+}
+
+#FERMEdiv img{
+	width: 51vw;
+	height: 53vh;
+	object-fit: cover;
+	margin-bottom: 2vh;
+}
+
+.italic{
+	font-style: italic; 
+}
+
+
+
+
+		
+/*			
+____ _ ____ ____ ____ ____ ____ ___  _  _ _ ____ 
+|__/ | [__  |  | | __ |__/ |__| |__] |__| | |___ 
+|  \ | ___] |__| |__] |  \ |  | |    |  | | |___
+
+ */
+
+
+	/* ARTICLE*/
+
+#RISOarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 10vw;
+	width: 38vw;
+	height: 23vh;
+	position: absolute;
+}
+
+#RISOtoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 36vw;
+}
+
+#RISOcroixarticle{
+	width: 2vw;
+}
+
+#RISOcaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 34vw;
+	height: 12vh;
+	/* haut | droit | bas | gauche */
+	padding: 0.5vw 2vh 0.5vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+	/* ASIDE*/
+
+#RISOaside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 5vh 50vw;
+	width: 30vw;
+	height: 70vh;
+	position: absolute;
+}
+
+
+#RISOcroixaside{
+/*	border: 1px solid black;*/
+	/* haut | droit | bas | gauche */
+	margin: 2vh auto 0 1vw;
+	width: 2vw;
+}
+
+#RISOdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 25.5vw;
+	height: 57vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	overflow : scroll; 
+}
+
+
+
+
+
+
+		
+/*			
+____ ____ ___  ___  ____ ____ ___    ____ ___ ____ ____ ____ 
+|__/ |__| |__] |__] |  | |__/  |     [__   |  |__| | __ |___ 
+|  \ |  | |    |    |__| |  \  |     ___]  |  |  | |__] |___
+ */
+
+
+	/* ARTICLE*/
+
+#RDSarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 5vw;
+	width: 25vw;
+	height: 23vh;
+	position: absolute;
+}
+
+#RDStoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 23.5vw;
+}
+
+#RDScroixarticle{
+	width: 2vw;
+}
+
+#RDScaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 21vw;
+	height: 12vh;
+	/* haut | droit | bas | gauche */
+	padding: 0.5vw 2vh 0.5vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+	/* ASIDE*/
+
+#RDSaside{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 8vh 40vw;
+	width: 55vw;
+	height: 66vh;
+	position: absolute;
+}
+
+
+#RDScroixaside{
+/*	border: 1px solid black;*/
+	/* haut | droit | bas | gauche */
+	margin: 2vh auto 0 1vw;
+	width: 2vw;
+}
+
+#RDSdiv{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 51vw;
+	height: 53vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	overflow : scroll; 
+}
+
+
+#RDSdiv img{
+	width: 51vw;
+	height: 53vh;
+	object-fit: cover;
+	margin-bottom: 2vh;
+}
+
+
+
+
+
+
+/*
+______ _   _ _____ _____ _____ _____ 
+| ___ \ | | |  _  |_   _|  _  /  ___|
+| |_/ / |_| | | | | | | | | | \ `--. 
+|  __/|  _  | | | | | | | | | |`--. \
+| |   | | | \ \_/ / | | \ \_/ /\__/ /
+\_|   \_| |_/\___/  \_/  \___/\____/
+
+*/
+
+
+
+#asidephoto{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 5vh 22vw;
+	width: 55vw;
+	height: 65vh;
+	position: absolute;
+}
+
+#photostopaside{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 53vw;
+}
+
+#photocroixaside{
+	width: 2vw;
+}
+
+#galeriescroll{
+	border: 1px solid black;
+	height: 45vh;
+
+}
+
+#photos ul{
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 20vw;
+	margin: 3vh auto;
+}
+
+#photos li{
+	width: 2vw;
+	height: 2vw;
+	border-radius: 50px;
+	background-color: white; 
+	border: 1px solid black;
+}
+
+#photos{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 51vw;
+	height: 54vh;
+	/* haut | droit | bas | gauche */
+	padding: 0.5vw 2vh 0.5vw 2vh;
+	align-items: center;
+}
+
+.sectionphotos{
+	margin: 2vh auto;
+	width: 51vw;
+	height: 54vh;
+	align-items: center;
+}
+
+.sectionphotos img{
+	margin: 2vh auto;
+	width: 51vw;
+	height: 54vh;
+	align-items: center;
+}
+
+.photos{
+	display: block;
+	float: center;
+	height: 30vh;
+	margin-right:auto;
+	margin-left:auto;
+	opacity: 0;
+	position: absolute;
+	transform: translate3d(-50%,-50%,0);
+/*	transition: opacity 1s;*/
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ ____________ ___________ _____ _____ 
+ | ___ \ ___ \  _  | ___ \  _  /  ___|
+ | |_/ / |_/ / | | | |_/ / | | \ `--. 
+ |  __/|    /| | | |  __/| | | |`--. \
+ | |   | |\ \\ \_/ / |   \ \_/ /\__/ /
+ \_|   \_| \_|\___/\_|    \___/\____/
+
+*/
+
+
+#PROPOSarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 40vh 10vw;
+	width: 45vw;
+	height: 30vh;
+	position: absolute;
+}
+
+#PROPOStoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 43vw;
+}
+
+#PROPOScroixarticle{
+	width: 2vw;
+}
+
+#PROPOScaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 40.5vw;
+	height: 17vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+#PROPOScaption a{
+	text-decoration: none;
+	color: black;
+}
+
+#PROPOScaption a:hover{
+	text-decoration: underline;
+}
+
+
+
+/*
+ _____ _____ _   _ _____ ___  _____ _____ 
+/  __ \  _  | \ | |_   _/ _ \/  __ \_   _|
+| /  \/ | | |  \| | | |/ /_\ \ /  \/ | |  
+| |   | | | | . ` | | ||  _  | |     | |  
+| \__/\ \_/ / |\  | | || | | | \__/\ | |  
+ \____/\___/\_| \_/ \_/\_| |_/\____/ \_/
+*/
+
+
+
+
+#CONTACTarticle{
+	border: 1px solid black;
+	background-color: white;
+	/* haut | droit | bas | gauche */
+	margin: 10vh 60vw;
+	width: 25vw;
+	height: 27vh;
+	position: absolute;
+}
+
+#CONTACTtoparticle{
+/*	border: 1px solid black;
+*/	margin: 2vh auto;
+	display: flex;
+	align-items: center;
+	width: 23vw;
+}
+
+#CONTACTcroixarticle{
+	width: 2vw;
+}
+
+#CONTACTcaption{
+	border: 1px solid black;
+	margin: 2vh auto;
+	width: 21vw;
+	height: 14vh;
+	/* haut | droit | bas | gauche */
+	padding: 1vw 2vh 1vw 2vh;
+	font-family: 'avenir';
+	line-height: 2.4vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ _ __   __ ___   __
+| '_ \ / _` \ \ / /
+| | | | (_| |\ V / 
+|_| |_|\__,_| \_/
+
+*/
+
+
+#nav{
+	border: 1px solid black;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 45vw;
+	height: 10.5vh;
+	margin: 80vh auto;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+#ICONEgaleriephotos{
+	width: 5vw;
+}
+
+#ICONEprint{
+	width: 4.5vw;
+}
+
+#ICONEgalerie{
+	width: 6vw;
+}
+
+#ICONEnum{
+	width: 5vw;
+}
+
+#ICONEapropos{
+	width: 5vw;
+}
+
+#ICONEcontact{
+	width: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
